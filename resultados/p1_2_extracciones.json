@@ -1,0 +1,46 @@
+{
+  "validados": {
+    "derivada_1.jpeg": {
+      "funcion_original": "((x^2 + 3)/(2x - 5))^4",
+      "tipo_ejercicio": "Derivadas de funciones compuestas",
+      "regla_principal": "Regla de la cadena",
+      "resultado_parcial": "4*((x^2 + 3)/(2x - 5))^3 * d/dx[(x^2 + 3)/(2x - 5)]",
+      "es_manuscrito": false
+    },
+    "derivada_2.jpeg": {
+      "funcion_original": "f(x) = x^3 · ln(5x-2)",
+      "tipo_ejercicio": "Derivada de un producto de funciones (potencia y logaritmo) usando regla del producto y cadena",
+      "regla_principal": "Regla del producto y regla de la cadena",
+      "resultado_parcial": "u(x)=x^3, v(x)=ln(5x-2); u'(x)=3x^2, v'(x)=1/(5x-2)·5 = 5/(5x-2)",
+      "es_manuscrito": true
+    },
+    "derivada_3.jpeg": {
+      "funcion_original": "sin(x)/x^2",
+      "tipo_ejercicio": "Regla del cociente y trigonométrica",
+      "regla_principal": "Regla del cociente",
+      "resultado_parcial": "(cos(x)*x^2 - sin(x)*2x)/(x^2)^2",
+      "es_manuscrito": true
+    },
+    "derivada_4.jpeg": {
+      "funcion_original": "e^(3x) * cos(x^2 - 4)",
+      "tipo_ejercicio": "Derivada de un producto de funciones (regla del producto con regla de la cadena)",
+      "regla_principal": "Regla del producto",
+      "resultado_parcial": "3e^(3x) * cos(x^2 - 4) + e^(3x) * (-2x * sin(x^2 - 4))",
+      "es_manuscrito": true
+    },
+    "derivada_5.jpeg": {
+      "funcion_original": "u^k",
+      "tipo_ejercicio": "Tabla de reglas de derivación (fórmulas de derivadas)",
+      "regla_principal": "Regla de la potencia combinada con la regla de la cadena",
+      "resultado_parcial": "k·u^(k-1)·u'",
+      "es_manuscrito": false
+    }
+  },
+  "crudos": {
+    "derivada_1.jpeg": "{\n  \"funcion_original\": \"((x^2 + 3)/(2x - 5))^4\",\n  \"tipo_ejercicio\": \"Derivadas de funciones compuestas\",\n  \"regla_principal\": \"Regla de la cadena\",\n  \"resultado_parcial\": \"4*((x^2 + 3)/(2x - 5))^3 * d/dx[(x^2 + 3)/(2x - 5)]\",\n  \"es_manuscrito\": false\n}",
+    "derivada_2.jpeg": "{\n  \"funcion_original\": \"f(x) = x^3 · ln(5x-2)\",\n  \"tipo_ejercicio\": \"Derivada de un producto de funciones (potencia y logaritmo) usando regla del producto y cadena\",\n  \"regla_principal\": \"Regla del producto y regla de la cadena\",\n  \"resultado_parcial\": \"u(x)=x^3, v(x)=ln(5x-2); u'(x)=3x^2, v'(x)=1/(5x-2)·5 = 5/(5x-2)\",\n  \"es_manuscrito\": true\n}",
+    "derivada_3.jpeg": "{\n  \"funcion_original\": \"sin(x)/x^2\",\n  \"tipo_ejercicio\": \"Regla del cociente y trigonométrica\",\n  \"regla_principal\": \"Regla del cociente\",\n  \"resultado_parcial\": \"(cos(x)*x^2 - sin(x)*2x)/(x^2)^2\",\n  \"es_manuscrito\": true\n}",
+    "derivada_4.jpeg": "{\n  \"funcion_original\": \"e^(3x) * cos(x^2 - 4)\",\n  \"tipo_ejercicio\": \"Derivada de un producto de funciones (regla del producto con regla de la cadena)\",\n  \"regla_principal\": \"Regla del producto\",\n  \"resultado_parcial\": \"3e^(3x) * cos(x^2 - 4) + e^(3x) * (-2x * sin(x^2 - 4))\",\n  \"es_manuscrito\": true\n}",
+    "derivada_5.jpeg": "{\n  \"funcion_original\": \"u^k\",\n  \"tipo_ejercicio\": \"Tabla de reglas de derivación (fórmulas de derivadas)\",\n  \"regla_principal\": \"Regla de la potencia combinada con la regla de la cadena\",\n  \"resultado_parcial\": \"k·u^(k-1)·u'\",\n  \"es_manuscrito\": false\n}"
+  }
+}

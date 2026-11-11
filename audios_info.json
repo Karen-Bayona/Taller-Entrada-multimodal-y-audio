@@ -1,0 +1,27 @@
+{
+  "audio_1.wav": {
+    "hablante": "Karen",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "¿Cuál es la derivada de x al cubo por seno de x? Quiero saber cómo aplicar la regla del producto paso a paso."
+  },
+  "audio_2.wav": {
+    "hablante": "Laura",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "Explícame la regla de la cadena para derivar seno de dos x más uno, y cuál es la derivada de la función interna."
+  },
+  "audio_3.wav": {
+    "hablante": "Karen",
+    "condicion": "con ruido leve",
+    "lo_que_se_dijo": "¿Cómo se deriva e elevado a x al cuadrado? Necesito entender la regla de la cadena aplicada a una función exponencial."
+  },
+  "audio_4.wav": {
+    "hablante": "Laura",
+    "condicion": "sin ruido",
+    "lo_que_se_dijo": "¿Cuál es la derivada de logaritmo natural de x dividido entre x al cuadrado usando la regla del cociente?"
+  },
+  "audio_5.wav": {
+    "hablante": "Karen",
+    "condicion": "con ruido fuerte",
+    "lo_que_se_dijo": "¿Cómo se deriva e elevado a x al cuadrado? Necesito entender la regla de la cadena aplicada a una función exponencial."
+  }
+}
